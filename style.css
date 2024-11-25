@@ -23,33 +23,17 @@ body{
 }
 
 
-
-
-
-
-
-/* .logo a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    font-weight: 1000;
-
-} */
-
-#div{
-    font-size: 9vh;
-     font-family: "Poppins";
-    font-weight: 800;
+/* For smaller screens like mobile devices */
+@media (max-width: 768px) {
+    .logo {
+        width: 300px; /* Smaller size for phones */
+        height: auto;
+    }
 }
 
-#symbol{
-    font-size: 9vh;
-     font-family: "inter";
-    font-weight: 900;
-}
-#yangshu{
-    margin-top: 1.5vh;
-    font-size: 4vh;
-    font-family: inter;
-    /* font-weight: 800; */
+@media (max-width: 480px) {
+    .logo {
+        width: 180px; /* Even smaller for very small phones */
+        height: auto;
+    }
 }
