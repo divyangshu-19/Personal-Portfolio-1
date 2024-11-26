@@ -22,6 +22,39 @@ body{
     background-color:var(--bg-color) ;
 }
 
+.navbar-toggler {
+    border: none; /* Removes the border */
+    background: transparent; /* Removes background color, if any */
+    padding: 0; /* Reduces any extra padding */
+}
+
+.navbar-toggler svg.hamburger-icon {
+    width: 50px; /* Adjust container size */
+    height: 30px; /* Maintain aspect ratio */
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.navmobile{
+    
+}
+
+
+   
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 
 /* For smaller screens like mobile devices */
 @media (max-width: 768px) {
@@ -33,7 +66,7 @@ body{
 
 @media (max-width: 480px) {
     .logo {
-        width: 180px; /* Even smaller for very small phones */
+        width: 200px; /* Even smaller for very small phones */
         height: auto;
     }
 }
