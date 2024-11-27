@@ -40,19 +40,27 @@ body{
 }
 
 
-.navmobile{
-    
+.custom-image {
+    max-width: 60%; /* Scale down the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .hero-text {
+    font-weight: 700;
+    max-width: 70%; 
+    height: auto;
+    text-align: justify; /* Ensures full justification */
+    text-justify: inter-character; /* Adds spacing between words for justification */
 }
 
+  .about .btn {
+    margin-top: 1rem; /* Add spacing above the button */
+    font-weight: 700;
+  }
+  
 
    
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
+
 
 
 
@@ -66,7 +74,13 @@ body{
 
 @media (max-width: 480px) {
     .logo {
-        width: 200px; /* Even smaller for very small phones */
+        width: 190px; /* Even smaller for very small phones */
         height: auto;
+    }
+
+    .hero-text{
+        text-justify: inter-word;
+        /* font-size:x-large */
+        /* color: yellow; */
     }
 }
