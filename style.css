@@ -26,6 +26,10 @@ body{
     font-weight: 900;
 }
 
+
+
+/* navbar start */
+
 .navbar-toggler {
     border: none; /* Removes the border */
     background: transparent; /* Removes background color, if any */
@@ -43,6 +47,9 @@ body{
     box-shadow: none;
 }
 
+/* navbar end  */
+
+/* hero section start  */
 
 .custom-image {
     max-width: 60%; /* Scale down the image */
@@ -63,6 +70,8 @@ body{
     font-weight: 700;
   }
   
+
+
   /* Cards section */
 
   .cards-posts .title-wrap {
@@ -146,6 +155,7 @@ body{
     color: color-mix(in srgb, var(--default-color), transparent 25%);
   }
 
+  /* timeline start  */
 
 
   body{margin-top:20px;}
@@ -264,11 +274,22 @@ body{
       right: -55.8px;
   }
 
+.event{
+  font-weight: 500;
+}
 
 
 
 
-
+.timeline .event::before {
+  content: attr(data-date); /* Displays the value of data-date */
+  font-family: 'Arial', sans-serif; /* Change the font */
+  font-weight: 700; /* Make it bold */
+  font-size: 14px; /* Adjust the size */
+  color: #000; /* Change the color to black */
+  display: block;
+  margin-bottom: 10px; /* Add space below */
+}
 
 
   
