@@ -292,6 +292,41 @@ body{
 }
 
 
+
+
+
+/* footer  */
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .btn-floating {
+  font-size: 1rem; /* Increase icon size */
+}
+
+footer .footer {
+  background-color: var(--bg-color); /* Default fallback background color */
+}
+
+footer .email-link {
+  font-size: 2.3rem; /* Increase font size */
+  display: block;
+  margin: 0 auto;
+  /* width: 60%; Take up 60% of the width */
+  text-decoration: none; /* Remove underline */
+  /* padding: 10px 0; Add space above and below */
+}
+
+footer .email-link:hover {
+  text-decoration: underline; /* Optional: underline on hover for clarity */
+}
+
+@media (max-width: 576px) {
+  
+}
+
   
  
   
@@ -323,5 +358,17 @@ body{
    
         margin-top: 0px;
  
+    }
+    footer .email-link {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+      width: 90%; /* Take up more space on smaller screens */
+    }
+  
+    footer {
+      padding-top: 30px; /* Add extra spacing on smaller screens */
+      padding-bottom: 30px;
+    }
+    footer .btn-floating {
+      font-size: 1rem; /* Increase icon size */
     }
 }
