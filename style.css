@@ -22,7 +22,7 @@ html {
 }
 
 body{
-  padding-top: 70px;
+  padding-top: 80px;
     background-color:var(--bg-color) ;
 }
 
@@ -365,6 +365,11 @@ footer .email-link:hover {
 
 
 @media (max-width: 480px) {
+
+  .body{
+    margin-top: 70px;
+  }
+
     .logo {
         width: 190px; /* Even smaller for very small phones */
         height: auto;
